@@ -1,0 +1,67 @@
+﻿body{
+	background:#f1f1f1;
+}
+.fa-chevron-left{
+	font-size:40px;
+	margin-right:90px;
+}
+
+.fa-cog{
+	font-size:40px;
+	margin-right:90px;
+}
+
+.fa-users{
+	font-size:40px !important;
+	margin-right:90px;
+}
+.fa-commenting{
+	font-size:40px;
+	margin-right:90px;
+}
+.fa-newspaper-o{
+	font-size:40px;
+	margin-right:90px;
+}
+
+header{
+  width: 100%;
+  DISPLAY: flex;
+}
+header nav ul {
+    display: -webkit-box;
+    padding: 10px 150px;
+    margin-left:210px;
+}
+.corpo{
+	width:500px;
+	margin:auto;
+}
+.conteudo{
+	display:table;
+}
+.imagem{
+	display:table-cell;
+	float:left;
+}
+.texto{
+	display:table-cell;
+	float:left;
+	font-weight:bold;
+	font-size:17px;
+}
+.direita{
+	float:right;
+	margin-left:140px;
+	font-size:17px;
+	font-weight:bold;
+}
+.fa-user-plus{
+	font-size:40px;
+}
+
+
+
+
+
+

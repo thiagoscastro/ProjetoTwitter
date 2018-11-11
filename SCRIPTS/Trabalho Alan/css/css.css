@@ -1,0 +1,81 @@
+﻿body{
+	background:#f1f1f1;
+}
+.fa-chevron-left{
+	font-size:40px;
+	margin-right:90px;
+}
+
+.fa-cog{
+	font-size:40px;
+	margin-right:90px;
+}
+
+.fa-users{
+	font-size:40px !important;
+	margin-right:90px;
+}
+.fa-commenting{
+	font-size:40px;
+	margin-right:90px;
+}
+.fa-newspaper-o{
+	font-size:40px;
+	margin-right:90px;
+}
+
+header{
+  width: 100%;
+  DISPLAY: flex;
+}
+header nav ul {
+    display: -webkit-box;
+    padding: 10px 150px;
+    margin-left:210px;
+}
+.corpo{
+	width:520px;
+	margin:auto;
+}
+.conteudo{
+	display:table;
+}
+.imagem{
+	display:table-cell;
+	float:left;
+}
+.texto{
+	display:table-cell;
+	float:left;
+	font-weight:bold;
+	font-size:17px;
+	float: left;
+	margin-left:5px;
+	
+}
+.direita{
+	float:right;
+	margin-left:500px;
+	font-size:17px;
+	font-weight:bold;
+}
+.fa-user-plus{
+	font-size:40px;
+}
+
+.IMGperfil{
+	width:30%;
+	float:left;
+}
+
+.textoPost{
+	width:65%;
+	float:left;
+}
+.iconesPost{
+	width:10px;
+	float:left;
+	font-size: 10px;
+}
+
+
