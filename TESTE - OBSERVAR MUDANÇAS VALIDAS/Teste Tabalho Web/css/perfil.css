@@ -1,0 +1,130 @@
+﻿body, *{
+    background-image: url('../images/background.png');
+	  
+}
+
+.fa{
+    color:#351f77;
+    text-decoration: none;
+}
+
+.fa:hover {
+    color:#FFBC00;
+}
+
+.fa-chevron-left{
+	font-size:40px;
+	margin-right:60px;
+	margin-left:140px;
+}
+
+.fa-cog{
+	font-size:40px;
+	margin-right:60px;
+}
+
+.fa-users{
+	font-size:40px !important;
+	margin-right:60px;
+}
+.fa-commenting{
+	font-size:40px;
+	margin-right:60px;
+}
+.fa-newspaper-o{
+	font-size:40px;
+	margin-right:60px;
+}
+
+header{
+  width: 100%;
+  DISPLAY: flex;
+}
+header nav ul {
+    display: -webkit-box;
+    padding: 10px 150px;
+    margin-left:210px;
+}
+.corpo{
+	width:520px;
+	margin:auto;
+}
+.conteudo{
+	display:table;
+    font-size: 20px;
+    border-bottom: 1px solid red;
+	margin-bottom: 10px;
+    border-color: black;
+    color:white;
+}
+.conteudo h2{
+	color:#351f77;
+}
+.conteudo h1{
+	color:#351f77;
+}
+
+
+.imagem{
+	display:table-cell;
+	float:left;
+
+}
+
+.foto{
+
+    border-color:color:#351f77;
+    border:6px solid #351f77;
+ 
+}
+
+.texto{
+	display:table-cell;
+	float:left;
+	font-weight:bold;
+	font-size:25px;
+	float: left;
+	margin-left:5px;
+    color:white;
+	
+}
+.direita{
+	float:right;
+	margin-left:500px;
+	font-size:17px;
+	font-weight:bold;
+}
+.fa-user-plus{
+	font-size:40px;
+}
+
+.IMGperfil{
+	width:30%;
+	float:left;
+}
+
+.textoPost{
+	width:65%;
+	float:left;
+}
+.iconesPost{
+	width:10px;
+	float:left;
+	font-size: 10px;
+}
+
+#seguidores{
+    text-align: right;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #2aa9e0; 
+    text-align: center;
+    padding: 30px;
+    border-radius: 0 0 30px 30px;/*deixa a borda arredondada*/
+    border-top: 10px solid #550dff;
+    font-weight:bold;
+}
+
+

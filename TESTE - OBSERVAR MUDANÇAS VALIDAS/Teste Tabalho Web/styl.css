@@ -34,7 +34,7 @@ header nav ul {
     margin-left:210px;
 }
 .corpo{
-	width:520px;
+	width:500px;
 	margin:auto;
 }
 .conteudo{
@@ -49,13 +49,10 @@ header nav ul {
 	float:left;
 	font-weight:bold;
 	font-size:17px;
-	float: left;
-	margin-left:5px;
-	
 }
 .direita{
 	float:right;
-	margin-left:500px;
+	margin-left:140px;
 	font-size:17px;
 	font-weight:bold;
 }
@@ -63,19 +60,8 @@ header nav ul {
 	font-size:40px;
 }
 
-.IMGperfil{
-	width:30%;
-	float:left;
-}
 
-.textoPost{
-	width:65%;
-	float:left;
-}
-.iconesPost{
-	width:10px;
-	float:left;
-	font-size: 10px;
-}
+
+
 
 

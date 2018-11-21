@@ -1,0 +1,5 @@
+- foi mudado o logo de lugar do canto superior esquerdo para o meio da pagina.
+- foi acrescentado novo menu
+- acrescentado 3 colunas com noticias
+
+ falta centralização (corpo da pagina) e se tornar reponsivo
