@@ -1,56 +1,47 @@
-﻿body, *
-{
+﻿
+/* codigo inserido - menu teste*/
+
+body, *{
     margin:0px;
     padding:0px;
     list-style:none;
-    
 }
-
 header{
   width: 100%;
-  DISPLAY: flex;
+  display: flex;
 }
-
 header div{
     float: left;
 }
-
-header nav ul
-{
+header nav ul{
     display: -webkit-box;
-    padding: 0px 150px;
+    padding: 0px 300px;
 }
-
-header nav ul li
-{
+header nav ul li{
     list-style-type: none;
     padding:40px ; 
     text-decoration:none;
-    color: white;
+    color: #351f77;
     font-family: sans-serif;
 	font-size: 25px;
 }
-
-
-header nav ul li a
-{
+header nav ul li a{
    text-decoration: none;
 }
-
 header nav ul li a:hover{
     text-decoration: underline;
     color:#FFBC00;
 	font-size:30px;
 }
-
-
-
+.logo{
+    height: 1px;
+}
 .centralizar{
-    width: 70%;
+    width: 558%;
+    height: 50%;
     max-width: 100%;
     margin:0 auto;
     display: table;
-    
 }
 #container {
  	display:inline-table;
@@ -61,10 +52,7 @@ header nav ul li a:hover{
 	background-size:cover;
 	background-position:center center;
 	background-attachment:fixed;
-
-
 }
-
 #container figcaption {
     position:absolute;
     top: 145px;
@@ -73,11 +61,9 @@ header nav ul li a:hover{
     text-shadow: 0px 55px 5px black;
     right:42.2%;
 }
-
 #cont_imag{
-    margin-left:50px;
+    margin-left:140px;
 }
-
 .imag{
  	text-align:center;
  	padding:3px;
@@ -87,41 +73,32 @@ header nav ul li a:hover{
 	width:300px;
 	height:248px;
 	font-family:"Courier New";
-	font-size:20px;
+	font-size:17px;
 	color:blue;
 	font-weight:bolder;
 }
-
 .imag a{
     text-decoration: none;
 }
-
 /*alinhamento do mapa*/
 #mapa{
-    text-align: center;
     border-bottom: 10px solid #550dff;
     border-top: 10px solid #550dff;
 }
-
 #mapa >iframe{
-    
+    margin-left:23%;
     height: 450px;
     width: 900px;
 }
-
 #container {
     width: 100%;
     margin: auto
 }
-
-
 #container h3{
     padding: 20px;
     margin: 5%;
     font-size: 28px;
 }
-
-
 .tx{
     border: 5px solid #ff00;
     border-radius: 15px;
@@ -132,13 +109,11 @@ header nav ul li a:hover{
     margin-bottom:10px;
     color:#00f;
 }
-
 .lb{
     display: block;
     font-weight: bold;
     font-size: 17px;
 }
-
 .bt{
     border:none;
     border-radius: 15px;
@@ -150,30 +125,52 @@ header nav ul li a:hover{
     background: #335aff;
     font-weight:bolder;
 }
-
 .bt:hover{
     cursor:pointer;
     color:#FFBC00;
 
 }
-
 .cont_end {
     float: left;
     width: 200px; height: 400px;
     margin-left: 400px;
 }
-
-
 #local{
     font-size: 17px;
     padding: 12px;
 }
-
 footer{
     background-color: #2AA9E0; 
     text-align: center;
     padding: 30px;
-    border-radius: 0 0 30px 30px;/*deixa a borda arredondada*/
+    border-radius: 0 0 30px 30px;
     border-top: 10px solid #550dff;
     font-weight:bold;
+}
+#menu ul{
+	margin:0 auto;
+    background-image: linear-gradient(to right, #e6f5ff , #1bcde1);
+	float: left;
+	width: 100%;
+	opacity: 0.5;
+}
+#menu ul li{
+	display: inline-grid;
+}
+#menu ul li a{
+	padding: 1px 10px;
+	display: inline-block;
+	color: purple;
+	text-decoration: none;	
+	font-size: 17px;
+}
+#menu ul :hover{
+    background:#ccf2ff; 
+    color: #cc7a00;
+    border-radius: 20px;
+}
+#col1, #col2{
+	width:310px;
+	float:left;
+	margin-right:15px;
 }

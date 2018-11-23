@@ -1,24 +1,17 @@
-﻿body
-    {
+﻿body{
     background-image: url('../images/login_background.png');
-    }
-
-.sec-form .form
-    {
+}
+.sec-form .form{
 	max-width:70%;
 	margin: 0 auto;
 	display:table;
-    }
-
-.form-login
-    {
+}
+.form-login{
     margin-top: 370px;
 	text-align:center;
 	color:#FF6600;
-    }
-
-.txt-box
-    {
+}
+.txt-box{
 	border:1px solid;
 	background:#white;
 	border-radius:0px;
@@ -26,16 +19,12 @@
 	height:40px;
 	padding-left:10px;
 	color:#9933FF;
-    }
-
-.form   
-    {
+}
+.form{
  	text-align:center;
 	padding:25px;
-    }
-
-.btn-login
-    {
+}
+.btn-login{
 	border:none;
 	background:#335aff;
 	color:white;
@@ -43,10 +32,8 @@
 	padding: 10px 20px;
 	font-size:15px;
     border-radius: 15px;
-    }
-
-.btn-login:hover    
-    {
+}
+.btn-login:hover{
 	color:#FFBC00;
 	cursor:pointer;
-    }
+}
